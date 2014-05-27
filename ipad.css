@@ -1,0 +1,55 @@
+#floater {
+	margin-bottom: -204px;	/* half of the total height */
+}
+.display {
+	width: 280px; /* total width */
+}
+.monitor {
+	padding: 0 15px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: white;
+	color: white;
+}
+.desktop {
+	line-height: 334px;
+	background: #616161;
+}
+.button {
+	position: relative;
+	padding: 11px 0;
+}
+/* modify */
+.camera {
+	padding: 16px 0;
+}
+.camera-circle {
+	margin: 0 auto;
+	height: 5px;
+	width: 5px;			
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #180000;
+}
+.button-circle {
+	margin: 0 auto;
+	height: 19px;
+	width: 19px;			
+	-moz-border-radius: 9.5px;
+	border-radius: 9.5px;
+	background: #ECEEF1;
+}
+.button-center {
+	position: absolute;
+	margin:  auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 5px;
+	width: 5px;
+	border: solid 1px #D3D5D8;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #F3F5F8;
+}

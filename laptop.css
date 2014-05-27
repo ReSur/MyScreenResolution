@@ -1,0 +1,41 @@
+#floater {
+	margin-bottom: -100px;	/* half of the total height */
+}
+.display {
+	width: 340px;	/* total width */
+}
+.monitor {
+	width: 250px;
+	padding: 15px;
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #181818;
+	color: #555;
+}
+.desktop {
+	line-height: 156px;
+	background: #EAEAEA;
+}
+/* modify */
+.monitor, .keyboard, .trackpad, .bottom {
+	margin: 0 auto;
+}
+.keyboard {
+	width: 340px;
+	height: 10px;
+	background: white;
+}
+.trackpad {
+	width: 40px;
+	height: 0;
+	border-width: 5px 5px 0px;
+	border-style: solid solid none;
+	border-color:  #ABAFB2 transparent transparent;
+}
+.bottom {
+	width: 280px;
+	height: 0;
+	border-width: 4px 30px 0px;
+	border-style: solid solid none;
+	border-color:  #666 transparent transparent;
+}

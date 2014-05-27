@@ -1,0 +1,77 @@
+#floater {
+	margin-bottom: -197px;	/* half of the total height */
+}
+.display {
+	width: 185px; /* total width */
+}
+.monitor {
+	padding: 0 11px;
+	border-radius: 27px;
+	-moz-border-radius: 27px;
+	background: white;
+	color: white;
+}
+.desktop {
+	clear: both;
+	line-height: 289px;
+	background: #616161;
+}
+.button {
+	position: relative;
+	padding: 7px 0 9px;
+}
+/* modify */
+.camera {
+	padding: 13px 0 0;
+}
+.camera-circle, .sensor, .telephone {
+	background: #180000;
+}
+.camera-circle {
+	margin: 0 auto;	
+	width: 8px;
+	height: 8px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.sensors {
+	margin: 0 auto;
+	padding: 9px 0 18px;
+	width: 56px;
+}
+.sensor {
+	margin-right: 7px;
+	width: 5px;
+}
+.telephone {
+	width: 32px;
+}
+.sensor, .telephone {
+	float: left;
+	height: 5px;
+	-moz-border-radius: 2.5px;
+	border-radius: 2.5px;
+}
+.button-circle {
+	margin: 0 auto;
+	height: 34px;
+	width: 34px;
+	border: solid 1px #EDEDED;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	background: #ECEEF1;
+}
+.button-center {
+	position: absolute;
+	margin:  auto;
+	top: -2px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 14px;
+	width: 14px;
+	border: solid 1px #8C8B8B;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F3F5F8;
+}

@@ -1,0 +1,1 @@
+document.getElementById("display").innerHTML="<div class='monitor' id='monitor'><div class='camera'><div class='camera-circle'></div></div><div class='sensors'><div class='sensor'></div><div class='telephone'></div></div><div class='desktop' id='desktop'>loading</div><div class='button'><div class='button-circle'><div class='button-center'></div></div></div></div>";
